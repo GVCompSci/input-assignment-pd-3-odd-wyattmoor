@@ -1,0 +1,18 @@
+'''
+Created on Sep 26, 2018
+
+@author: wmoor22
+'''
+
+name=(input("Please state your name"))
+phone=(input("Please type your phone number"))
+product=(input("What product do you want to buy??"))
+price=float(input("What is the cost of the item you're buying"))
+quantity=float(input("How many would you like to buy?"))
+totalcost=(price*quantity)
+print(name)
+print('phone')
+print("Purchase information:")
+print(product)
+print(price)
+print(quantity)
